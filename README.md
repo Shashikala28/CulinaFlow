@@ -1,133 +1,160 @@
-CulinaFlow – AI-Powered Recipe & Pantry Management Platform
+# 🍽️ CulinaFlow – AI-Powered Recipe & Pantry Management Platform  
 
 An AI-powered cooking assistant platform that helps users manage pantry ingredients, generate recipes using AI, and organize their cooking experience efficiently.
 
-🚀 Features
-1️⃣ User Authentication
+---
 
-Secure login and signup system.
+## 🚀 Features  
 
-The system provides:
+### 1️⃣ User Authentication  
 
-JWT-based authentication
-Password hashing using bcryptjs
-Protected routes
-User session management
+Secure login and signup system.  
 
-2️⃣ Pantry Management
+The system provides:  
 
-Users can manage their kitchen ingredients easily.
+* JWT-based authentication  
+* Password hashing using bcryptjs  
+* Protected routes  
+* User session management  
 
-Features include:
+---
 
-Add, update, and delete pantry items
-Track ingredient quantity
-Expiry date alerts
-Low-stock warnings
-3️⃣ AI Recipe Generation
+### 2️⃣ Pantry Management  
 
-Users can generate recipes using AI based on available pantry items.
+Users can manage their kitchen ingredients easily.  
 
-The system provides:
+Features include:  
 
-AI-powered recipe generation using Google Gemini 2.5 Flash
-Recipes based on available ingredients
-Dietary filters:
-Vegetarian
-Vegan
-Keto
-Paleo
-Gluten-Free
+* Add, update, and delete pantry items  
+* Track ingredient quantity  
+* Expiry date alerts  
+* Low-stock warnings  
 
-Recipe details include:
+---
 
-Ingredients list
-Step-by-step cooking instructions
-Nutrition information
-AI cooking tips
-Save recipe option
+### 3️⃣ AI Recipe Generation  
 
-4️⃣ Recipe Collection
+Users can generate recipes using AI based on available pantry items.  
 
-Users can manage and explore saved recipes.
+The system provides:  
 
-Features include:
+* AI-powered recipe generation using Google Gemini 2.5 Flash  
+* Recipes based on available ingredients  
+* Dietary filters:  
+  * Vegetarian  
+  * Vegan  
+  * Keto  
+  * Paleo  
+  * Gluten-Free  
 
-Save recipes for future use
-Search recipes
-Filter by:
-Cuisine
-Difficulty level
-5️⃣ PostgreSQL Database
+Recipe details include:  
 
-Efficient and structured data storage.
+* Ingredients list  
+* Step-by-step cooking instructions  
+* Nutrition information  
+* AI cooking tips  
+* Save recipe option  
 
-The system uses:
+---
 
-Normalized relational schema
-Hosted on Neon
-Tables for users, pantry, and recipes
-6️⃣ Responsive UI
+### 4️⃣ Recipe Collection  
 
-Modern and user-friendly interface.
+Users can manage and explore saved recipes.  
 
-Features include:
+Features include:  
 
-Built with Tailwind CSS v4
-Fully responsive design
-Clean and modern UI
-🛠 Tech Stack
+* Save recipes for future use  
+* Search recipes  
+* Filter by:  
+  * Cuisine  
+  * Difficulty level  
 
-Frontend
+---
 
-React.js
-Tailwind CSS v4
-React Router
-Axios
+### 5️⃣ PostgreSQL Database  
 
-Backend
+Efficient and structured data storage.  
 
-Node.js
-Express.js
-JWT Authentication
-bcryptjs
+The system uses:  
 
-Database
+* Normalized relational schema  
+* Hosted on Neon  
+* Tables for users, pantry, and recipes  
 
-PostgreSQL (NeonDB)
+---
 
-AI Integration
+### 6️⃣ Responsive UI  
 
-Google Gemini 2.5 Flash API
-⚙️ Installation
+Modern and user-friendly interface.  
 
-Clone the repository
+Features include:  
 
-git clone https://github.com/your-username/culinaflow.git
+* Built with Tailwind CSS v4  
+* Fully responsive design  
+* Clean and modern UI  
 
-Navigate to project
+---
 
-cd culinaflow
+## 🛠 Tech Stack  
 
-Install dependencies
+Frontend  
 
-npm install
+* React.js  
+* Tailwind CSS v4  
+* React Router  
+* Axios  
 
-Run the development server
+Backend  
 
-npm run dev
+* Node.js  
+* Express.js  
+* JWT Authentication  
+* bcryptjs  
 
-🔑 Environment Variables
+Database  
 
-Create a .env file and add:
+* PostgreSQL (NeonDB)  
 
-GEMINI_API_KEY=your_api_key
-DATABASE_URL=your_neondb_url
-JWT_SECRET=your_secret_key
-PORT=5000
+AI Integration  
 
-📊 Future Improvements
-Meal planning system
-Grocery list generation
-Recipe sharing feature
-Voice-based cooking assistant
+* Google Gemini 2.5 Flash API  
+
+---
+
+## ⚙️ Installation  
+
+Clone the repository  
+
+git clone https://github.com/your-username/culinaflow.git  
+
+Navigate to project  
+
+cd culinaflow  
+
+Install dependencies  
+
+npm install  
+
+Run the development server  
+
+npm run dev  
+
+---
+
+## 🔑 Environment Variables  
+
+Create a `.env` file and add:  
+
+GEMINI_API_KEY=your_api_key  
+DATABASE_URL=your_neondb_url  
+JWT_SECRET=your_secret_key  
+PORT=5000  
+
+---
+
+## 📊 Future Improvements  
+
+* Meal planning system  
+* Grocery list generation  
+* Recipe sharing feature  
+* Voice-based cooking assistant  
